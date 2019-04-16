@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{NASAexoplanet}
+``{NASA} {E}xoplanet {A}rchive.''
+  \url{http://exoplanetarchive.ipac.caltech.edu/}.
+\newblock Accessed: May 2016.
+
+\bibitem{Perryman2014}
+M.~Perryman, J.~Hartman, G.~{\'{A}}. Bakos, and L.~Lindegren, ``Astrometric
+  exoplanet detection with \textit{{G}aia},'' {\em The Astrophysical
+  Journal}~{\bf 797}(1), p.~14, 2014.
+
+\bibitem{Tinetti2013}
+G.~Tinetti, T.~Encrenaz, and A.~Coustenis, ``Spectroscopy of planetary
+  atmospheres in our galaxy,'' {\em The Astronomy and Astrophysics Review}~{\bf
+  21}(1), pp.~1--65, 2013.
+
+\bibitem{Glauser2013}
+A.~Glauser, R.~Van~Boekel, O.~Krause, T.~Henning, B.~Benneke, J.~Bouwman,
+  P.~Cubillos, I.~Crossfield, {\"O}.~Detre, M.~Ebert, {\em et~al.},
+  ``Characterizing exoplanets in the visible and infrared: A spectrometer
+  concept for the {EChO} space mission,'' {\em Journal of Astronomical
+  Instrumentation}~{\bf 2}(01), p.~1350004, 2013.
+
+\bibitem{Tinetti2015}
+G.~Tinetti, ``The {ARIEL} mission proposal.'' Available at:
+  \url{http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=56561}, 2015.
+
+\bibitem{Flare2016}
+``The {FLARE} mission.'' \url{http://mission.lam.fr/flare/index.html}.
+
+\bibitem{Donlon2012}
+C.~Donlon, B.~Berruti, A.~Buongiorno, M.-H. Ferreira, P.~F{\'e}m{\'e}nias,
+  J.~Frerick, P.~Goryl, U.~Klein, H.~Laur, C.~Mavrocordatos, {\em et~al.},
+  ``The global monitoring for environment and security (gmes) sentinel-3
+  mission,'' {\em Remote Sensing of Environment}~{\bf 120}, pp.~37--57, 2012.
+
+\bibitem{Sonnabend2008}
+G.~Sonnabend, M.~Sornig, P.~Krötz, D.~Stupar, and R.~Schieder, ``Ultra high
+  spectral resolution observations of planetary atmospheres using the cologne
+  tuneable heterodyne infrared spectrometer,'' {\em Journal of Quantitative
+  Spectroscopy and Radiative Transfer}~{\bf 109}(6), pp.~1016 -- 1029, 2008.
+\newblock Spectroscopy and Radiative Transfer in Planetary Atmospheres.
+
+\bibitem{Berta2012}
+Z.~K. Berta, D.~Charbonneau, J.-M. Désert, E.~M.-R. Kempton, P.~R. McCullough,
+  C.~J. Burke, J.~J. Fortney, J.~Irwin, P.~Nutzman, and D.~Homeier, ``The flat
+  transmission spectrum of the super-earth gj1214b from wide field camera 3 on
+  the hubble space telescope,'' {\em The Astrophysical Journal}~{\bf 747}(1),
+  p.~35, 2012.
+
+\bibitem{Theocharous06}
+E.~Theocharous, R.~Deshpande, A.~C. Dillon, and J.~Lehman, ``Evaluation of a
+  pyroelectric detector with a carbon multiwalled anotube black coating in the
+  infrared,'' {\em Appl. Opt.}~{\bf 45}, pp.~1093--1097, Feb 2006.
+
+\bibitem{Theocharous14}
+E.~Theocharous, C.~J. Chunnilall, R.~Mole, D.~Gibbs, N.~Fox, N.~Shang,
+  G.~Howlett, B.~Jensen, R.~Taylor, J.~R. Reveles, O.~B. Harris, and N.~Ahmed,
+  ``The partial space qualification of a vertically aligned carbon nanotube
+  coating on aluminium substrates for eo applications,'' {\em Opt.
+  Express}~{\bf 22}(6), pp.~7290--7307, 2014.
+
+\bibitem{Mizuno09}
+K.~Mizuno, J.~Ishii, H.~Kishida, Y.~Hayamizu, S.~Yasuda, D.~N. Futaba,
+  M.~Yumura, and K.~Hata, ``A black body absorber from vertically aligned
+  single-walled carbon nanotubes,'' {\em Proceedings of the National Academy of
+  Sciences}~{\bf 106}(15), pp.~6044--6047, 2009.
+
+\bibitem{Berber2000}
+S.~Berber, Y.-K. Kwon, and D.~Tom\'anek, ``Unusually high thermal conductivity
+  of carbon nanotubes,'' {\em Phys. Rev. Lett.}~{\bf 84}, pp.~4613--4616, May
+  2000.
+
+\bibitem{ISO12233}
+``{ISO} 12233:2014: {P}hotography -- electronic still picture imaging --
+  resolution and spatial frequency responses,'' standard, International
+  Organization for Standardization, Geneva, CH, 2014.
+
+\bibitem{Marquardt2002}
+E.~D. Marquardt, J.~P. Le, and R.~Radebaugh, {\em Cryocoolers 11},
+  ch.~{Cryogenic Material Properties Database}, pp.~681--687.
+\newblock Springer US, Boston, MA, 2002.
+
+\end{thebibliography}

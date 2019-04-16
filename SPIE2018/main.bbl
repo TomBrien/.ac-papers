@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{Furlanetto2018}
+C.~Furlanetto, S.~Dye, N.~Bourne, S.~Maddox, L.~Dunne, S.~Eales, E.~Valiante,
+  M.~W. Smith, D.~J.~B. Smith, Ivison, R.~J., and E.~Ibar, ``The second
+  \textit{Herschel}-{ATLAS} data release - {III}. optical and near-infrared
+  counterparts in the north galactic plane field,'' {\em Monthly Notices of the
+  Royal Astronomical Society}~{\bf 476}(1), pp.~961--978, 2018.
+
+\bibitem{Ferrusca2014}
+D.~Ferrusca and J.~Contreras~R., ``Weather monitor station and 225 {GHz}
+  radiometer system installed at {S}ierra {N}egra: the {L}arge {M}illimeter
+  {T}elescope site,'' {\em Proc.SPIE}~{\bf 9147}, pp.~914730--1, 2014.
+
+\bibitem{Zeballos2016}
+A.~Zeballos, D.~Ferrusca, J.~Contreras~R., and D.~H. Hughes, ``Reporting the
+  first 3 years of {225-GHz} opacity measurements at the site of the {L}arge
+  {M}illimeter {T}elescope {A}lfonso {S}errano,'' {\em Proc.SPIE}~{\bf 9906},
+  pp.~99064U--1, 2016.
+
+\bibitem{Brien2018}
+T.~L.~R. Brien, E.~Castillo-Dominguez, S.~Chase, and S.~M. Doyle, ``A
+  continuous 100-m{K} helium-light cooling system for {MUSCAT} on the {LMT},''
+  {\em Journal of Low Temperature Physics} , 2018.
+\newblock In press.
+
+\bibitem{Klemencic2016}
+G.~M. Klemencic, P.~A.~R. Ade, S.~Chase, R.~Sudiwala, and A.~L. Woodcraft, ``A
+  continuous dry 300 mk cooler for thz sensing applications,'' {\em Review of
+  Scientific Instruments}~{\bf 87}(4), p.~045107, 2016.
+
+\bibitem{Teleberg2008}
+G.~Teleberg, S.~T. Chase, and L.~Piccirillo, ``A cryogen-free miniature
+  dilution refrigerator for low-temperature detector applications,'' {\em
+  Journal of Low Temperature Physics}~{\bf 151}(3), pp.~669--674, 2008.
+
+\bibitem{Doyle2010}
+S.~Doyle, P.~Mauskopf, J.~Zhang, A.~Monfardini, L.~Swenson, J.~J.~A. Baselmans,
+  S.~J.~C. Yates, and M.~Roesch, ``A review of the lumped element kinetic
+  inductance detector,'' {\em Proc.SPIE}~{\bf 7741}, p.~10, 2010.
+
+\bibitem{Mani2014}
+H.~Mani and P.~Mauskopf, ``A single-stage cryogenic lna with low power
+  consumption using a commercial sige hbt,'' in {\em Low Temperature
+  Electronics (WOLTE), 2014 11th International Workshop on},  pp.~17--20, IEEE,
+  2014.
+
+\bibitem{Hickish2016}
+J.~Hickish, Z.~Abdurashidova, Z.~Ali, K.~D. Buch, S.~C. Chaudhari, H.~Chen,
+  M.~Dexter, R.~S. Domagalski, J.~Ford, G.~Foster, {\em et~al.}, ``A decade of
+  developing radio-astronomy instrumentation using casper open-source
+  technology,'' {\em Journal of Astronomical Instrumentation}~{\bf 5}(04),
+  p.~1641001, 2016.
+
+\bibitem{Duan2010}
+R.~Duan, S.~McHugh, B.~Serfass, B.~A. Mazin, A.~Merrill, T.~P. Golwala, Downes,
+  N.~G. Czakon, P.~K. Day, J.~Gao, J.~Glenn, M.~I. Hollister, H.~G. Leduc,
+  P.~R. Maloney, O.~Noroozian, H.~T. Nguyen, J.~Sayers, J.~A. Schlaerth,
+  S.~Siegel, J.~E. Vaillancourt, A.~Vayonakis, P.~R. Wilson, and J.~Zmuidzinas,
+  ``An open-source readout for {MKID}s,'' {\em Proc.SPIE}~{\bf 7741},
+  pp.~7741--10, 2010.
+
+\bibitem{Gordon2016}
+S.~Gordon, B.~Dober, A.~Sinclair, S.~Rowe, S.~Bryan, P.~Mauskopf,
+  J.~Austermann, M.~Devlin, S.~Dicker, J.~Gao, {\em et~al.}, ``An open source,
+  fpga-based lekid readout for blast-tng: Pre-flight results,'' {\em Journal of
+  Astronomical Instrumentation}~{\bf 5}(04), p.~1641003, 2016.
+
+\end{thebibliography}

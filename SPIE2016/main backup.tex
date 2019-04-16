@@ -1,0 +1,65 @@
+\documentclass[a4paper]{spie}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[version=3]{mhchem}
+\usepackage{siunitx}
+\usepackage{units}
+
+
+\pdfmapfile{=fontawesome.map}
+
+\title{A cryogenic testbed for the characterisation of large detector arrays for astronomical and Earth-observing applications in the near to very-long-wavelength infrared}
+
+\author[1]{Thomas L. R. Brien}
+\author[1]{Peter A. R. Ade}
+\author[2]{Dirk van Aken}
+\author[3]{Markus Haiml}
+\author[1]{Peter C. Hargrave}
+\author[3]{Holger H\"ohnemann}
+\author[1]{Enzo Pascale}
+\author[1]{Rashmi V. Sudiwala}
+
+\affil[1]{School of Physics and Astronomy, Cardiff University, The Parade, Cardiff, CF24 3AA, UK}
+\affil[2]{Caeleste CVBA, Hendrik Consciencestraat 1B, B2800 Mechelen, Belgium}
+\affil[3]{AIM Infrarot-Module GmbH, Theresienstra{\ss}e 2, D-74072 Heilbronn, Germany}
+
+\authorinfo{Corresponding author: T. L. R. Brien (\faicon{envelope-o} \href{mailto:tom.brien@astro.cf.ac.uk}{tom.brien@astro.cf.ac.uk})}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In this paper we describe a cryogenic testbed designed to offer complete characterise mercury cadmium telluride (MCT) detectors for applications in exoplanet science via a minimal number of experimental configurations. Specifically, the testbed offers a platform to measure the dark current of detector arrays at various temperatures while also characterising the optical response of an array in numerous spectral bands within the range $8\mbox{--}12~\si{\micro \metre}$ and specifically, the average modulation transfer function (MTF) can be found in both dimensions of the array along with the overall detection efficiency of the array. Working from a liquid-helium bath allows for measurement of arrays at $4.2~\si{\kelvin}$ and further active-temperature control of the surface to which the array is mounted allows for characterisation of arrays from temperatures upwards $\sim 20~\si{\kelvin}$, with the temperature of the array holder known to an accuracy of at least $0.1~\si{\kelvin}$.
+\end{abstract}
+
+\keywords{Mercury cadmium telluride, MCT, low-temperature array characterisation, modulation transfer function, photovoltaic readout}
+
+\section{Introduction}
+In recent years there has been a meteoric rise in the number of confirmed exoplanets discovered, indeed at time of writing there are over three thousand confirmed exoplanets with a further 4,600 candidate planets found by the \textit{Kepler} observatory \cite{NASAexoplanet} and ESA's \textit{Gaia} mission expected to find tens of thousands more \cite{Perryman2014}. However, the study of these object has, so far, been predominately limited to determining their size, mass and orbital characteristics. The chemistry of exoplanets is a key area which must be explored in order to gain a much more complete understanding of these astronomical objects including knowledge constituent elements with the atmosphere of an exoplanet along with the nature of the planet's formation.
+\par 
+Such a study of exoplanet chemistry requires high-quality, with a spectral resolving power, $\mathcal{R} = \nicefrac{\Delta\lambda}{\lambda}$, of $\mathcal{R} \sim 100\mbox{--}300$ for most molecular signatures however some species (such as \ce{O_{3}}) require a much higher resolving power. \cite{Tinetti2013} In order to achieve such high-quality spectroscopy the currently preferred approach---for currently proposed missions such as ARIEL\cite{Tinetti2015}---is to use a grating combined with a high resolution photovoltaic array, typically a mercury cadmium telluride (MCT) array. In this configuration, the image at the detector array contains the spectral information in one axis and spatial information in the perpendicular axis. The spectral resolution, $\Delta\lambda$, is limited by the dimensions of the grating and the pixel pitch of the array along with the electro-optical characteristics of the array (such as cross-talk between pixels).
+\par 
+<IMPROVE AND CITE> The anticipated signal from the an exoplanet is relatively faint and, as such, the dark current limits the minimum detectable signal. There is currently a severe lack European-manufactured MCT detectors capable of operating at sufficiently low dark current for applications in exoplanet or earth-observing science. In this paper we present a cryogenic testbed designed to offer flexible characterisation of the next generation of MCT detectors and also describe what test---in addition to measurements of the dark current---are needed in order to determine the suitability of particular MCT arrays for use in astronomical and earth-observing applications.
+\par 
+We note that throughout this paper the term \textit{array} is taken to refer to a final detector package consisting of the array of photovoltaic pixels and any readout integrated circuit (ROIC) but does not include any further readout circuitry, such as any application-specific integrated circuit (ASIC) \textit{sidecar}.
+
+\section{Key array quantities for characterisation}
+In order to design a testbed suitable of ascertaining the suitability of a particular array for use in exoplanet science, it is important to first assess which parameters need to be studied and what impact reduced performance in a particular area would have on an eventual instrument. We have identified the following quantities as those most in need of measurement:
+\begin{description}
+\item \textbf{Dark current} At present the dark current is one of the major performance-limiting factors in the use of MCT detectors for astronomical observations. The dark current is manifested as an integrating signal during the readout of a photovoltaic array and has the effect of limiting the achievable signal-to-noise ratio (SNR) from the ideal (photon-noise-limited) case.
+\item \textbf{Spectral response} The key spectral parameter is the wavelength at which the array ceases to respond to an optical signal (this is related to the band gap of the material used). Furthermore, the detection efficiency through the spectral band of interest ($8\mbox{--}12.5~\si{\micro\metre}$) is important for understanding the uniformity of the spectral response.
+\item \textbf{Operation temperature} While, in deployment, the detector array would be operated at a constant temperature, it is important to understand the behaviour of the array through the possible operational temperature range (nominally $20\mbox{--}80~\si{\kelvin}$) such that performance vs thermal budget can be assessed.
+\item \textbf{Optical properties} Several optical characteristics are key to the suitability of an array for the applications under consideration here. Of particular interest is the image lag (<ADD REF TO LATER SECTION>). The modulation transfer function (MTF, the ability to reproduce a spatially varying signal as a function of spatial frequency) also requires exploration.
+\item \textbf{Electrical properties} The electrical properties of interest are, for the most part, those common to most detector arrays and include: noise of all types based both in the photovoltaic pixels as well as the readout, response non-uniformity, pixel-to-pixel cross talk, along with standard current-voltage ($I\mbox{-}V$) curves.
+\end{description}
+%
+\section{Appropriately quantifying image lag for astronomical applications}\label{sec:lag}
+Image lag is the fractional amount of an image recorded in one frame that exists in the subsequent frame. It is often thought of as \textit{memory} or \textit{ghosting} effect and is often measured by examining the remaining signal after an array is taken from an illuminated state in one frame to a blanked (dark) state in the following. We however argue that, when considering astronomical applications, the reverse case, whereby an array is taken from darkness in one frame to an illuminated state in the subsequent. The reasoning for this can be understood by noting that this situation is the same as opening the shutter of a telescope and observing a source. Berta et al.\cite{Berta2012} show observations of the exoplanet GJ1214b using the \textit{Hubble} Space Telescope. They show that for each group of measurements, after the shutter is opened, the measured signal increases for each exposure in a 
+
+\bibliography{bib}
+\bibliographystyle{spiebib}
+\end{document}

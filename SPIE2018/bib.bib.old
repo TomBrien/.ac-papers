@@ -1,0 +1,120 @@
+@article{Klemencic2016,
+author = {G. M. Klemencic and P. A. R. Ade and S. Chase and R. Sudiwala and A. L. Woodcraft},
+title = {A continuous dry 300 mK cooler for THz sensing applications},
+journal = {Review of Scientific Instruments},
+volume = {87},
+number = {4},
+pages = {045107},
+year = {2016},
+doi = {10.1063/1.4945691},
+URL = {https://doi.org/10.1063/1.4945691},
+}
+@article{Brien2018,
+author = {Brien, T. L. R. and Castillo-Dominguez, E. and Chase, S. and Doyle, S. M.},
+title = {A Continuous 100-m{K} Helium-Light Cooling System for {MUSCAT} on the {LMT}},
+journal = {Journal of Low Temperature Physics},
+year = {2018},
+note={In press}
+}
+@article{Teleberg2008,
+author={Teleberg, G. and Chase, S. T. and Piccirillo, L.},
+title={A Cryogen-Free MIniature Dilution Refrigerator for Low-Temperature Detector Applications},
+journal={Journal of Low Temperature Physics},
+year={2008},
+volume={151},
+number={3},
+pages={669--674},
+url={https://doi.org/10.1007/s10909-008-9724-7}
+}
+@article{Furlanetto2018,
+author = {Furlanetto, C. and Dye, S. and Bourne, N. and Maddox, S. and Dunne, L. and Eales, S. and Valiante, E. and Smith, M. W.  and Smith, D. J. B. and Ivison and R. J. and Ibar, E.},
+title = {The second \textit{Herschel}-{ATLAS} Data Release - {III}. Optical and near-infrared counterparts in the North Galactic Plane field},
+journal = {Monthly Notices of the Royal Astronomical Society},
+volume = {476},
+number = {1},
+pages = {961-978},
+year = {2018},
+doi = {10.1093/mnras/sty151},
+URL = {http://dx.doi.org/10.1093/mnras/sty151}
+}
+@inproceedings{Doyle2010,
+author = {Doyle, S. and  Mauskopf, P. and Zhang, J. and Monfardini, A. and  Swenson, L. and Baselmans, J. J. A. and Yates, S. J. C. and  Roesch, M.},
+title = {A review of the lumped element kinetic inductance detector},
+journal = {Proc.SPIE},
+volume = {7741},
+pages = {10},
+year = {2010},
+doi = {10.1117/12.857341},
+URL = {https://doi.org/10.1117/12.857341}
+}
+@inproceedings{Calvo2012,
+author = {M.  Calvo and M.  Roesch and F. X. D\'{e}sert and A.  Monfardini and A.  Benoit and P.  Ade and N.  Boudou and O.  Bourrion and P.  Camus and A.  Cruciani and S.  Doyle and C.  Hoffmann and S.  Leclercq and J. F. Macias-Perez and P.  Mauskopf and N.  Ponthieu and K.  Schuster and C.  Tucker and C.  Vescovi},
+title = {The {NIKA} 2011 run: results and perspectives towards a permanent camera for the {P}ico {V}eleta observatory},
+journal = {Proc.SPIE},
+volume = {8452},
+pages = {7},
+year = {2012},
+doi = {10.1117/12.927044},
+URL = {https://doi.org/10.1117/12.927044}
+}
+@inproceedings{Ferrusca2014,
+author = {Ferrusca, D. and  Contreras R., J.},
+title = {Weather monitor station and 225 {GHz} radiometer system installed at
+{S}ierra {N}egra: the {L}arge {M}illimeter {T}elescope site},
+journal = {Proc.SPIE},
+volume = {9147},
+pages = {914730-1},
+year = {2014},
+doi = {10.1117/12.2055005},
+URL = {https://doi.org/10.1117/12.2055005}
+}
+@inproceedings{Zeballos2016,
+author = {Zeballos, A. and Ferrusca, D. and  Contreras R., J. 
+	and Hughes, D. H.},
+title = {Reporting the first 3 years of {225-GHz} opacity measurements
+at the site of the {L}arge {M}illimeter {T}elescope {A}lfonso {S}errano},
+journal = {Proc.SPIE},
+volume = {9906},
+pages = {99064U-1},
+year = {2016},
+doi = {10.1117/12.2232168},
+URL = {https://doi.org/10.1117/12.2232168}
+}
+@article{Gordon2016,
+  title={An Open Source, FPGA-Based LeKID Readout for BLAST-TNG: Pre-Flight Results},
+  author={Gordon, Samuel and Dober, Brad and Sinclair, Adrian and Rowe, Samuel and Bryan, Sean and Mauskopf, Philip and Austermann, Jason and Devlin, Mark and Dicker, Simon and Gao, Jiansong and others},
+  journal={Journal of Astronomical Instrumentation},
+  volume={5},
+  number={04},
+  pages={1641003},
+  year={2016},
+  publisher={World Scientific}
+}
+@article{Hickish2016,
+  title={A Decade of Developing Radio-Astronomy Instrumentation using CASPER Open-Source Technology},
+  author={Hickish, Jack and Abdurashidova, Zuhra and Ali, Zaki and Buch, Kaushal D and Chaudhari, Sandeep C and Chen, Hong and Dexter, Matthew and Domagalski, Rachel Simone and Ford, John and Foster, Griffin and others},
+  journal={Journal of Astronomical Instrumentation},
+  volume={5},
+  number={04},
+  pages={1641001},
+  year={2016},
+  publisher={World Scientific}
+}
+@inproceedings{Duan2010,
+author = {Duan, Ran and McHugh, Sean and Serfass, Bruno and Mazin, Benjamin A. and Merrill, A. and Golwala, Downes, Thomas P.  and Czakon, Nicole G. and Day, Peter K. and Gao, Jiansong and Glenn, Jason and  Hollister, Matthew I. and Leduc, Henry G. and Maloney, Philip R. and  Noroozian, Omid and Nguyen, Hien T.  and Sayers, Jack and Schlaerth, James A. and Siegel, Seth and Vaillancourt, John E. and  Vayonakis, Anastasios and Wilson, Philip R. and Zmuidzinas, Jonas},
+title = {An open-source readout for {MKID}s},
+journal = {Proc.SPIE},
+volume = {7741},
+pages = {7741-10},
+year = {2010},
+doi = {10.1117/12.856832},
+URL = {https://doi.org/10.1117/12.856832}
+}
+@inproceedings{Mani2014,
+  title={A single-stage cryogenic LNA with low power consumption using a commercial SiGe HBT},
+  author={Mani, Hamdi and Mauskopf, Philip},
+  booktitle={Low Temperature Electronics (WOLTE), 2014 11th International Workshop on},
+  pages={17--20},
+  year={2014},
+  organization={IEEE}
+}
